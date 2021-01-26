@@ -1,0 +1,109 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "date": "October 19, 2020",
+      "time": "6:13PM",
+      "city": "San Diego",
+      "state": "CA",
+      "headline": "Jose Alfredo Castro Shot by San Diego Police",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "category": "Police Brutality",
+      "source": "https://www.sandiegouniontribune.com/news/public-safety/story/2020-10-27/family-of-man-fatally-shot-by-san-diego-police-calls-shooting-excessive-releases-video",
+      "actions": "https://www.afsc.org/action/tell-your-governor-invest-communities-not-policing?ms=SEA20GS0002EVGGDefundPolice&gclid=CjwKCAiA_9r_BRBZEiwAHZ_v15F53cmih_w5OChQyMsdud-IFXZu2YJiZ8ym5SbD6AbVDDlzGeOTAxoCOJQQAvD_BwE",
+      "images": [
+        "https://ca-times.brightspotcdn.com/dims4/default/83683ce/2147483647/strip/true/crop/3584x2384+0+0/resize/840x559!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fd2%2Fc9%2Fa9b228b14821bc6928c3d1ba4fe1%2Fjose-alfredo-castro-gutierrez.png"
+      ],
+      "type": "incident",
+      "coordinates": [32.7157, -117.161087]
+    },
+    {
+      "id": 2,
+      "date": "December 1, 2020",
+      "time": "3:00PM",
+      "city": "Chula Vista",
+      "state": "CA",
+      "headline": "Abolish ICE Protest",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "category": "Immigration",
+      "source": "https://www.nbcsandiego.com/news/local/a-rise-in-hate-crimes-committed-by-white-suspects/127211/",
+      "actions": "https://www.afsc.org/action/sign-our-petition-abolish-ice?ms=SEA20GS0002EVGGAbolishICE&gclid=CjwKCAiA_9r_BRBZEiwAHZ_v11J3jbM5QkSZkn72Jp095WLsgev_c_A3nMciB_wLwCD5VsnbzJ5QHBoC_6UQAvD_BwE",
+      "images": [
+        "https://static01.nyt.com/images/2018/06/30/us/politics/30abolishICE3/merlin_138980484_b5137360-9575-4b2c-9a68-02c48ac80de2-superJumbo.jpg",
+        "https://cms.qz.com/wp-content/uploads/2018/07/ICE.jpg"
+      ],
+      "type": "event",
+      "coordinates": [32.6401, -117.0842]
+    },
+    {
+      "id": 3,
+      "date": "January 10, 2021",
+      "time": "2:00PM",
+      "city": "North Park",
+      "state": "CA",
+      "headline": "March for Black Lives",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "category": "Black Lives Matter",
+      "source": "https://www.sandiegouniontribune.com/news/public-safety/story/2020-06-14/black-lives-matter-the-history-philosophy-behind-the-international-social-justice-movement",
+      "actions": "https://www.afsc.org/action/tell-your-governor-invest-communities-not-policing?ms=SEA20GS0002EVGGDefundPolice&gclid=CjwKCAiA_9r_BRBZEiwAHZ_v15F53cmih_w5OChQyMsdud-IFXZu2YJiZ8ym5SbD6AbVDDlzGeOTAxoCOJQQAvD_BwE",
+      "images": [
+        "https://ca-times.brightspotcdn.com/dims4/default/caba3d8/2147483647/strip/true/crop/5040x3360+0+0/resize/840x560!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fbc%2F80%2Fb83b04404267afe460391076995b%2F553513-sd-me-blm-caravan-protest0005.JPG"
+      ],
+      "type": "event",
+      "coordinates": [32.7456, -117.1294]
+    },
+    {
+      "id": 4,
+      "date": "July 10, 2020",
+      "time": "4:22PM",
+      "city": "El Cajon",
+      "state": "CA",
+      "headline": "Title Title Title",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "category": "Police Brutality",
+      "source": "https://www.sandiegouniontribune.com/news/public-safety/story/2020-10-27/family-of-man-fatally-shot-by-san-diego-police-calls-shooting-excessive-releases-video",
+      "actions": "https://www.afsc.org/action/tell-your-governor-invest-communities-not-policing?ms=SEA20GS0002EVGGDefundPolice&gclid=CjwKCAiA_9r_BRBZEiwAHZ_v15F53cmih_w5OChQyMsdud-IFXZu2YJiZ8ym5SbD6AbVDDlzGeOTAxoCOJQQAvD_BwE",
+      "images": [
+        "https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/06/02/10/Police-brutality-protesters-7.jpg"
+      ],
+      "type": "incident",
+      "coordinates": [32.7948, -116.9625]
+    },
+    {
+      "id": 5,
+      "date": "February 1, 2021",
+      "time": "6:13PM",
+      "city": "Encinitas",
+      "state": "CA",
+      "headline": "Prison Reform Rally",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "category": "Prison Reform",
+      "source": "https://www.sandiegouniontribune.com/news/public-safety/story/2020-10-27/family-of-man-fatally-shot-by-san-diego-police-calls-shooting-excessive-releases-video",
+      "actions": "https://www.afsc.org/action/tell-your-governor-invest-communities-not-policing?ms=SEA20GS0002EVGGDefundPolice&gclid=CjwKCAiA_9r_BRBZEiwAHZ_v15F53cmih_w5OChQyMsdud-IFXZu2YJiZ8ym5SbD6AbVDDlzGeOTAxoCOJQQAvD_BwE",
+      "images": [
+        "https://brooklyneagle.com/wp-content/uploads/2019/02/prisonprotest-toddmaisel-5-600x399.jpg"
+      ],
+      "type": "event",
+      "coordinates": [33.0370, -117.2920]
+    },
+    {
+      "id": 6,
+      "date": "February 1, 2021",
+      "time": "6:13PM",
+      "city": "Del Mar",
+      "state": "CA",
+      "headline": "Reparations for Indigenous Folks Rally",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "category": "Indigenous Reparations",
+      "source": "https://www.sandiegouniontribune.com/news/public-safety/story/2020-10-27/family-of-man-fatally-shot-by-san-diego-police-calls-shooting-excessive-releases-video",
+      "actions": "https://www.afsc.org/action/tell-your-governor-invest-communities-not-policing?ms=SEA20GS0002EVGGDefundPolice&gclid=CjwKCAiA_9r_BRBZEiwAHZ_v15F53cmih_w5OChQyMsdud-IFXZu2YJiZ8ym5SbD6AbVDDlzGeOTAxoCOJQQAvD_BwE",
+      "images": [
+        "https://goodanthropocenes.net/wp-content/uploads/2016/05/peoples-climate-march-allan-lisner.jpg"
+      ],
+      "type": "event",
+      "coordinates": [32.9595, -117.2653]
+    }
+
+  ]
+}
+
