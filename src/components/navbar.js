@@ -27,12 +27,7 @@ const Navbar = () => {
           <ul className="inline-flex mt-3">
             <li>
               <a className="pl-3  pr-10 hover:text-gray-800 " href="/">
-                Home
-              </a>
-            </li>
-            <li>
-              <a className="px-3 pr-10  hover:text-gray-800" href="results">
-                Map
+                Search
               </a>
             </li>
             <li>

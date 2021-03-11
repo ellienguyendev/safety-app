@@ -1,16 +1,15 @@
 import React, { useState } from "react"
-import { GoogleMap, Marker, InfoWindow, SearchBox } from "react-google-maps"
-import * as Data from "../json/data.json"
+import { GoogleMap, Marker, InfoWindow } from "react-google-maps"
 
 const Map = props => {
   const [icon, setIcon] = useState(null)
   const [infoWindow, setInfoWindow] = useState(null)
 
-  const iconChange = data => {
-    if (icon && data.id == icon.id) {
+  const iconChange = event => {
+    if (icon && event.id == icon.id) {
       return "icons/hover-pin.png"
     } else {
-      if (data.type === "incident") {
+      if (event.type === "incident") {
         return "icons/red-pin.png"
       } else {
         return "icons/blue-pin.png"
@@ -27,24 +26,24 @@ const Map = props => {
           lng: props.coordinates[1],
         }}
       >
-        {Data.events.map(Data => (
+        {props.mongoData.map(event => (
           <Marker
-            key={Data.id}
+            key={event.node.id}
             icon={{
-              url: iconChange(Data),
-              scaleSize: new window.google.maps.Size(25, 25),
+              url: iconChange(event.node),
+              scaleSize: new window.google.maps.Size(20, 20),
             }}
             onMouseOver={() => {
-              setIcon(Data)
-              setInfoWindow(Data)
+              setIcon(event.node)
+              setInfoWindow(event.node)
             }}
             onClick={() => {
               props.setmodal(true)
-              props.setData(Data)
+              props.setMapData(event.node)
             }}
             position={{
-              lat: Data.coordinates[0],
-              lng: Data.coordinates[1],
+              lat: event.node.coordinates[0],
+              lng: event.node.coordinates[1],
             }}
           />
         ))}
@@ -61,10 +60,10 @@ const Map = props => {
               <img
                 className="w-15 h-12 mb-2"
                 src={infoWindow.images[0]}
-                style={{ width: "100px", height: "100px" }}
+                style={{ width: "200px", height: "100px" }}
               />
-              <h2 className="text-sm mb-3" style={{ fontFamily: "coustard" }}>
-                {infoWindow.name}
+              <h2 className="text-sm mb-3" style={{ fontFamily: "Gentium Basic" }}>
+                {`${infoWindow.headline} | ${infoWindow.date}`}
               </h2>
               <p className="text-sm" style={{ fontFamily: "Gentium Basic" }}>
                 {infoWindow.description}
@@ -73,8 +72,6 @@ const Map = props => {
           </InfoWindow>
         ) : null}
       </GoogleMap>
-
-      
     </div>
   )
 }

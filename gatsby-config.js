@@ -36,6 +36,21 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-mongodb`,
+      options: {
+        connectionString: `mongodb+srv://ellie:admin@cluster0.djceu.mongodb.net`,
+        dbName: `SafetyApp`,
+        collection: `events`
+      },
+      query: {
+        documents: {
+          as_of: {
+            $gte: 1604397088013
+          }
+        }
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

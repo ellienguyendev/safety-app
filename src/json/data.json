@@ -90,8 +90,8 @@
       "id": 6,
       "date": "February 1, 2021",
       "time": "6:13PM",
-      "city": "Del Mar",
-      "state": "CA",
+      "city": "Boston",
+      "state": "MA",
       "headline": "Reparations for Indigenous Folks Rally",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "category": "Indigenous Reparations",
@@ -101,7 +101,7 @@
         "https://goodanthropocenes.net/wp-content/uploads/2016/05/peoples-climate-march-allan-lisner.jpg"
       ],
       "type": "event",
-      "coordinates": [32.9595, -117.2653]
+      "coordinates": [42.3601, -71.0589]
     }
 
   ]
